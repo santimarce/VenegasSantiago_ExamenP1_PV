@@ -1,0 +1,34 @@
+<!-- Examen Primer Parcial: Santiago Venegas -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Examen Parcial 1</title>
+  </head>
+  <script src="built/main.js"></script>
+  <body>
+    <form id="myForm">
+        <center><h1>Examen Parcial 1 - Santiago Venegas</h1></center> <br>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" /><br />
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" /><br />
+
+      <label for="direccion">Dirección:</label>
+      <input type="text" id="direccion" name="direccion" /><br />
+
+      <label for="seccion">Sección:</label>
+      <select id="seccion" name="seccion">
+        <option value="mujeres">Mujeres</option>
+        <option value="niños">Niños</option>
+        <option value="hombres">Hombres</option>
+      </select><br />
+
+      <input type="button" id="btnGuardar" value="Guardar" onclick="completarProceso()"/>
+    </form>
+  </body>
+</html>
